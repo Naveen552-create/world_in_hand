@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosptial</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <style>
+        fieldset {
+          background-color: #eeeeee;
+        }
+        
+        legend {
+          background-color: gray;
+          color: white;
+          padding: 5px 10px;
+        }
+        
+        input {
+          margin: 5px;
+        }
+        a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+    
+</head>
+<body>
+  <script>
+    $(document).ready(function(){
+         $('#sumbitbtn').click(function(){
+             var hosptialname=$('#texthosptialname').val();
+             if(hosptialname=="")
+             {
+                 alert(" Please Enter Hosptial Name");
+                 $('#texthosptialname').focus();
+                 return false;
+             }
+             var Speciality=$('#textSpeciality').val();
+             if(Speciality=="")
+             {
+                 alert(" Please Enter  Speciality");
+                 $('#textSpeciality').focus();
+                 return false;
+             }
+             var hosptialname1=$('#texthosptialname1').val();
+             if(hosptialname1=="")
+             {
+                 alert(" Please Enter  Hosptial Name");
+                 $('#texthosptialname1').focus();
+                 return false;
+             }
+             var Speciality1=$('#textSpeciality1').val();
+             if(Speciality1=="")
+             {
+                 alert(" Please Enter  Speciality");
+                 $('#textSpeciality1').focus();
+                 return false;
+             }
+             var hosptialname2=$('#texthosptialname2').val();
+             if(hosptialname2=="")
+             {
+                 alert("Please Enter  Hosptial Name");
+                 $('#texthosptialname2').focus();
+                 return false;
+             }
+             var Speciality2=$('#textSpeciality2').val();
+             if(Speciality2=="")
+             {
+                 alert(" Please Enter  Speciality");
+                 $('#textSpeciality2').focus();
+                 return false;
+             }
+             var hosptialname3=$('#texthosptialname3').val();
+             if(hosptialname3=="")
+             {
+                 alert(" Please Enter  Hosptial Name");
+                 $('#texthosptialname3').focus();
+                 return false;
+             }
+             var Speciality3=$('#textSpeciality3').val();
+             if(Speciality3=="")
+             {
+                 alert(" Please Enter  Speciality");
+                 $('#textSpeciality3').focus();
+                 return false;
+             }
+           });
+           });
+ </script>
+    <br>
+    <div class="container">
+        <form>
+            <fieldset>
+             <legend>Enter Your Nearest Hosptial Details (Any Four)</legend>
+
+               <div class="form-group col-md-6">
+                   <label for="texthosptialname">Hosptial Name</label>
+                   <input type="text" class="form-control" id="texthosptialname" required placeholder="Please Enter Your Nearest Hosptial Name">
+               </div>
+           
+                <div class="form-group col-md-6">
+                   <label for="textSpeciality">Speciality</label>
+                   <input type="text" class="form-control" id="textSpeciality" required placeholder=" Enter Speciality">
+                </div>
+              
+                <div class="form-group col-md-6">
+                    <label for="texthosptialname1">Hosptial Name</label>
+                    <input type="text" class="form-control" id="texthosptialname1" required placeholder="Please Enter Your Nearest Hosptial Name">
+                </div>
+            
+                 <div class="form-group col-md-6">
+                    <label for="textSpeciality1">Speciality</label>
+                    <input type="text" class="form-control" id="textSpeciality1" required placeholder=" Enter Speciality">
+                 </div>
+                
+                 <div class="form-group col-md-6">
+                    <label for="texthosptialname2">Hosptial Name</label>
+                    <input type="text" class="form-control" id="texthosptialname2" required placeholder="Please Enter Your Nearest Hosptial Name">
+                </div>
+            
+                 <div class="form-group col-md-6">
+                    <label for="textSpeciality2">Speciality</label>
+                    <input type="text" class="form-control" id="textSpeciality2" required placeholder=" Enter Speciality">
+                 </div>
+
+                 <div class="form-group col-md-6">
+                    <label for="texthosptialname3">Hosptial Name</label>
+                    <input type="text" class="form-control" id="texthosptialname3" required placeholder="Please Enter Your Nearest Hosptial Name">
+                </div>
+            
+                 <div class="form-group col-md-6">
+                    <label for="textSpeciality3">Speciality</label>
+                    <input type="text" class="form-control" id="textSpeciality3" required placeholder=" Enter Speciality">
+                 </div>
+            </fieldset><br>
+            <div class="container">
+              <a href="School.html" class="previous">&laquo; Previous</a>
+              <a href="BloodDonor.html" class="next" id="sumbitbtn">Next &raquo;</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brith Certificate</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<style>
+    fieldset {
+      background-color: #eeeeee;
+    }
+    
+    legend {
+      background-color: gray;
+      color: white;
+      padding: 5px 10px;
+    }
+    
+    input {
+      margin: px;
+    }
+</style>
+
+</head>
+    <body>
+      
+    <script src="jquery.min.js"></script>
+      
+    <br>
+     <form>
+        <div class="container">
+     <fieldset>
+      <legend>Baby Details</legend>
+      
+      <div class="form-group col-md-6">
+        <label for="textfirstname">First Name</label>
+        <input type="text" class="form-control" id="textfirstname" required placeholder="Your Baby First Name">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="textlastname">Last Name</label>
+        <input type="text" class="form-control" id="textlastname" required placeholder="Your Baby Last Name">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="texdob">Date Of Birth</label>
+        <input type="date" id="texdob" name="birthday" required>
+      </div>
+
+      <div class="form-group col-md-6">
+        <label>Gender</label>
+          <input type="radio" id="ramale" name="contact" value="male" />
+          <label for="ramale">MALE</label>
+          <input type="radio" id="rafemale" name="contact" value="female" />
+          <label for="rafemale">FEMALE</label>
+      </div>
+       
+      <div class="form-group col-md-6">
+        <label for="textcaste">Caste</label>
+        <input type="text" class="form-control" id="textcaste" required placeholder="Enter Your Caste">
+      </div>
+      
+     <div class="form-group col-md-9">
+      <label for="textAddress">Address</label>
+      <input type="text" class="form-control" id="textAddress" placeholder="Enter your Permeant Address">
+     </div>
+
+    <div class="form-group col-md-9">
+      <label for="textAddress1">Address</label>
+      <input type="text" class="form-control" id="textAddress1" placeholder="Enter your Temporarily Address">
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="textcity">City</label>
+          <input type="text" class="form-control" id="textcity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="textstate">State</label>
+          <select id="textstate" class="form-control">
+            <option selected> select your state</option>
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option>Assam</option>
+            <option>Bihar</option>
+            <option> Chhattisgarh </option>
+            <option> Chittoor</option> 
+            <option>Goa </option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option> Himachal Pradesh</option> 
+            <option>Jammu and Kashmir</option> 
+            <option> Jharkhand</option> 
+            <option> Karnataka </option>
+            <option>Kerala</option>
+            <option> Madhya Pradesh</option>
+            <option> Maharashtra</option>
+            <option>Manipur</option>
+            <option> Meghalaya</option>
+            <option>Mizoram</option> 
+            <option> Nagaland</option>
+            <option>Odisha</option>
+             <option>Punjab </option>
+             <option>Rajasthan </option>
+             <option>Sikkim</option>  
+            <option> Tamil Nadu</option>
+            <option> Telangana</option>
+            <option> Tripura</option>
+            <option> Uttar Pradesh</option>
+            <option> Uttarakhand</option>
+            <option> West Bengal</option>
+          </select>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="textpincode">Pin code</label>
+          <input type="text" class="form-control" id="textpincode">
+        </div>
+      </div>
+
+    </fieldset>
+    </div>
+    </form>
+
+    <br>
+    <form>
+       <div class="container">
+    <fieldset>
+     <legend>Parents Details</legend>
+
+     <div class="form-group col-md-6">
+        <label for="textffirstname">First Name</label>
+        <input type="text" class="form-control" id="textffirstname" required placeholder="Enter Father First Name">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="textflastname">Last Name</label>
+        <input type="text" class="form-control" id="textflastname" required placeholder="Enter Father Last Name">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="textmfirstname">First Name</label>
+        <input type="text" class="form-control" id="textmfirstname" required placeholder="Enter Mother First Name">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="textmlastname">Last Name</label>
+        <input type="text" class="form-control" id="textmlastname" required placeholder="Enter Mother Last Name">
+      </div>
+     
+
+    </fieldset>
+       </div>
+    </form>
+   
+    
+    <br>
+    <form>
+       <div class="container">
+    <fieldset>
+     <legend>Hosptial Details</legend>
+
+     <div class="form-group col-md-6">
+        <label for="texthosptialname">Hosptial Name</label>
+        <input type="text" class="form-control" id="texthosptialname" required placeholder="Enter Hosptial Name">
+    </div>
+
+     <div class="form-group col-md-6">
+        <label for="textdoctorfirstname">Doctor First Name</label>
+        <input type="text" class="form-control" id="textdoctorfirstname" required placeholder="Enter Doctor First Name">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="textdoctorlastname">Doctor last  Name</label>
+        <input type="text" class="form-control" id="textdoctorlastname" required placeholder="Enter Doctor Last Name" >
+      </div>
+
+      <div class="form-group col-md-9">
+        <label for="texthosptialaddress"> Hosptial Address</label>
+        <input type="text" class="form-control" id="texthosptialaddress" placeholder="Enter Hosptial Address" required>
+       </div>
+    </fieldset>
+       </div>
+    </form>
+
+    <br>
+    <form>
+       <div class="container">
+    <fieldset>
+     <legend>Upload Proof's</legend>
+
+     <div class="form-group col-md-9">
+
+        <label for="Any Month">Upload Any Month Bill Receipt(With in the 9 Months)</label>
+
+        <div class="input-group">
+
+            <div class="custom-file">
+                <input type="file" class="form-control-file" required id="textUploadfile">
+             </div>
+           
+        </div>
+
+      </div>
+      
+      <div class="form-group col-md-9">
+
+        <label for="Any Month">Upload Bill Receipt(At Bady Delivery Time)</label>
+
+        <div class="input-group">
+            <div class="custom-file">
+                <div class="form-group">
+                   
+                    <input type="file" class="form-control-file" required id="textUploadfile1">
+                  </div>
+            </div>   
+        </div>
+      </div>
+     
+    </fieldset>
+       </div><br>
+    <div class="container">  
+      <!-- <button type="submit" class="custom-btn btn-6" id="sumbitbtn" required><span>Submit</span></button>     -->
+        <input type="submit" class="btn btn-success" id="sumbitbtn" >
+    </div>
+  </form>
+    </body>
+    <script>
+      $(document).ready(function(){
+          $('#sumbitbtn').click(function(){
+              var firstname=$('#textfirstname').val();
+              if(firstname=="")
+              {
+                  alert("Your Baby First Name");
+                  $('#textfirstname').focus();
+                  return false;
+              }
+              var lastname=$('#textlastname').val();
+              if(lastname=="")
+              {
+                  alert("Your Baby Last Name");
+                  $('#textlastname').focus();
+                  return false;
+              }
+              var Dob=$('#texdob').val();
+               if(Dob==="")
+               {
+                 alert("Enter Date of Brith");
+                 $('#textdob').focus();
+                 return false;
+               }
+               var gmale=$('#ramale').is(":checked")
+               var gfemale=$('#rafemale').is(":checked");
+               if(gmale==false && gfemale==false)
+               {
+                 alert("select gender");
+                  $('').focus;
+                 return false;
+               }
+              var caste=$('#textcaste').val();
+              if(caste=="")
+              {
+                  alert("Enter Your Caste");
+                  $('#textcaste').focus();
+                  return false;
+              }
+              var Address=$('#textAddress').val();
+              if(Address=="")
+              {
+                  alert("Enter your Permeant Address");
+                  $('#textAddress').focus();
+                  return false;
+              }
+              var Address1=$('#textAddress1').val();
+              if(Address1=="")
+              {
+                  alert("Enter your Temporarily Address");
+                  $('#textAddress1').focus();
+                  return false;
+              }
+              var city=$('#textcity').val();
+              if(city=="")
+              {
+                  alert("Enter your City");
+                  $('#textcity').focus();
+                  return false;
+              }
+              var state=$('#textstate').val();
+              if(state=="")
+              {
+                  alert("Enter your state");
+                  $('#textstate').focus();
+                  return false;
+              }
+              var pincode=$('#textpincode').val();
+              if(pincode=="")
+              {
+                  alert("Enter your pincode");
+                  $('#textpincode').focus();
+                  return false;
+              }
+              var ffirstname=$('#textffirstname').val();
+              if(ffirstname=="")
+              {
+                  alert("Enter Father First Name");
+                  $('#textffirstname').focus();
+                  return false;
+              }
+              var flastname=$('#textflastname').val();
+              if(flastname=="")
+              {
+                  alert("Enter Father Last Name");
+                  $('#textflastname').focus();
+                  return false;
+              }
+              var mfirstname=$('#textmfirstname').val();
+              if(mfirstname=="")
+              {
+                  alert("Enter Mother First Name");
+                  $('#textmfirstname').focus();
+                  return false;
+              }
+              var mlastname=$('#textmlastname').val();
+              if(mlastname=="")
+              {
+                  alert("Enter Mother Last Name");
+                  $('#textmlastname').focus();
+                  return false;
+              }
+              var hosptialname=$('#texthosptialname').val();
+              if(hosptialname=="")
+              {
+                  alert("Enter Hosptial Name");
+                  $('#texthosptialname').focus();
+                  return false;
+              }
+              var doctorfirstname=$('#textdoctorfirstname').val();
+              if(doctorfirstname=="")
+              {
+                  alert("Enter Doctor First Name");
+                  $('#textdoctorfirstname').focus();
+                  return false;
+              }
+              var doctorlastname=$('#textdoctorlastname').val();
+              if(doctorlastname=="")
+              {
+                  alert("Enter Doctor Last Name");
+                  $('#textdoctorlastname').focus();
+                  return false;
+              }
+              
+              var hosptialaddress=$('#texthosptialaddress').val();
+              if(hosptialaddress=="")
+              {
+                  alert("Enter Hosptial Address");
+                  $('#texthosptialaddress').focus();
+                  return false;
+              }
+              var Uploadfile=$('#textUploadfile').val();
+              if(Uploadfile=="")
+              {
+                  alert("Upload Any Month Bill Receipt(With in the 9 Months)");
+                  $('#textUploadfile').focus();
+                  return false;
+              }
+              var Uploadfile1=$('#textUploadfile1').val();
+              if(Uploadfile1=="")
+              {
+                  alert("Upload Bill Receipt(At Bady Delivery Time)");
+                  $('#textUploadfile1').focus();
+                  return false;
+              }
+            });
+            });
+  </script> 
+</html>
